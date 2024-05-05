@@ -1,0 +1,159 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    color: #fff;
+    line-height: 1.6;
+    background-image: url('ronal.png');
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    
+}
+
+/* Header styles */
+header {
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header h2 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section heading styles */
+.container h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Project and achievement styles */
+.project, .achievement {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha value for transparency */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project h3, .achievement h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.project p, .achievement p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Footer styles */
+footer {
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact a:hover {
+    color: #fff;
+}
+/*                */
+
+
+/* Project and achievement styles */
+.project, .achievement {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha value for transparency */
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition effect */
+}
+
+.project:hover, .achievement:hover {
+    transform: scale(1.05); /* Increase scale slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+}
+
+.project h3, .achievement h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+    transition: color 0.3s ease; /* Add smooth transition effect */
+}
+
+.project:hover h3, .achievement:hover h3 {
+    color: #ffcc00; /* Change text color on hover */
+}
+
+.project p, .achievement p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+    transition: color 0.3s ease; /* Add smooth transition effect */
+}
+
+.project:hover p, .achievement:hover p {
+    color: #ddd; /* Change text color on hover */
+}
